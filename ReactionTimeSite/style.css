@@ -4,10 +4,19 @@ h1 {
 }
 
 .clickArea {
+    text-align: center;
     cursor: pointer;
     background-color: black;
     width: 700px;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.centeredImage {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 4%;
+    user-select: none;
+
 }

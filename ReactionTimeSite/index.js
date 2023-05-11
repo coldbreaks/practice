@@ -18,7 +18,7 @@ var handleClick = () => {
         endTime = new Date();
         reactionTime = endTime - startTime; // returns difference in ms
         setReactionTimeText(reactionTime);
-        changeColor("black");
+        changeImage("white");
     }
 
 }; // ending of method to handle the clicking of the click area div
@@ -28,14 +28,14 @@ var startTest = () => {
     var minDelay = 1000;
     var maxDelay = 8000;
 
-    changeColor("red");
+    changeImage("purple");
 
     colorCountInProgress = true;
     
     var rdmDelay = Math.random() * (maxDelay - minDelay + 1) + minDelay;
 
     setTimeout(function() {
-        changeColor("green");
+        changeImage("orange");
         colorCountInProgress = false;
         startTime = new Date();
     }, rdmDelay);
@@ -61,3 +61,17 @@ var changeColor = (color) => {
         }
       }
 }; // ending bracket of method to change background color of the div based on string input
+
+var changeImage = (color) => {
+    var image = document.getElementsByClassName("centeredImage")[0];
+
+    if(image) {
+        if(color === "purple"){
+            image.src = "purpletiger.png";
+        } else if(color === "orange"){
+            image.src = "orangetiger.png";
+        } else if(color === "white"){
+            image.src = "whitetiger.png";
+        }
+      }
+}; // ending bracket of method to change img based on color
