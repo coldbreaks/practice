@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    user-select: none;
+}
+
+.clickArea {
+    cursor: pointer;
+    background-color: black;
+    width: 700px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
