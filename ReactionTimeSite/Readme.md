@@ -1,4 +1,4 @@
-# [TigerTime](https://coldbreaks.github.io/practice/TigerTime/)
+# <a href="https://coldbreaks.github.io/practice/TigerTime/" target="_blank">TigerTime</a>
 
 Welcome to TigerTime!
 
