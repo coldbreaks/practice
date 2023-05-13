@@ -1,6 +1,7 @@
 h1 {
     text-align: center;
     user-select: none;
+    margin-top: 5%;
 }
 
 .clickArea {
@@ -18,5 +19,7 @@ h1 {
     cursor: pointer;
     margin-top: 4%;
     user-select: none;
+    width: 27.19%;
+    height: 45.93%;
 
 }
